@@ -12,9 +12,10 @@ const port = process.env.PORT || 4000
 connectDB();
 
 const allowedOrigins = [
-    'http://localhost:5173',
-    'https://mern-auth-1-2coj.onrender.com'
- ]
+  "https://mern-auth-1-2coj.onrender.com", // Frontend URL
+  "https://mern-auth-8yu7.onrender.com", // Backend URL (for your own reference)
+  "http://localhost:4000", // If you're testing locally
+];
 
 app.use(express.json());
 app.use(cookieParser());
