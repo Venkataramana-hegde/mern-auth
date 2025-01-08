@@ -1,0 +1,15 @@
+# Node.js dependencies
+client/node_modules/
+server/node_modules/
+
+# Environment variables
+client/.env
+server/.env
+
+# Logs
+client/*.log
+server/*.log
+
+# Build artifacts
+client/dist/
+server/dist/
